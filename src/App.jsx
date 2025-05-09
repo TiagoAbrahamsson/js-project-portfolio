@@ -1,10 +1,16 @@
+import React from "react";
+import "./index.css"; 
+import HeroSection from "./Components/Herosection";
+import Tech from "./Components/Tech";
 
-
-git export const App = () => {
+export const App = () => {
   return (
     <>
-      <h1>Tiago Abrahamsson</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
+     <div className="App">
+     <HeroSection />
+     {}
+     <Tech /> 
+   </div>
     </>
   )
 }
