@@ -1,13 +1,24 @@
 import React from "react";
 
-const Card = () => {
+const Card = ({ image, title, description, tags, liveLink, codeLink }) => {
   return (
     <div className="card">
-      <h1>Card</h1>
-      <p>The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.</p>
-      <img src="" alt="" />
-      <button></button>
-      <button></button>
+      <div className="card-image">
+        <img src={image} alt={title} />
+      </div>
+      <div className="card-content">
+        <div className="card-tags">
+          {tags && tags.map((tag, index) => (
+            <span key={index}>{tag}</span>
+          ))}
+        </div>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className="card-buttons">
+          <a className="btn" href={liveLink}>Live Site</a>
+          <a className="btn btn-dark" href={codeLink}>View Code</a>
+        </div>
+      </div>
     </div>
   );
 }
