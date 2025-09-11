@@ -24,12 +24,12 @@ import Card from "./card";
       },
       {
         id: 4,
-        image: "/images/project4.png",
+        image: "/images/accessability.png",
         title: "Web accessability quiz App",
         description: "A quiz website about web accessability where common accessibility guidelines are followed.",
         tags: ["HTML5", "Javascript", "CSS", "WCAG"],
         liveLink: "https://quiz-accessibility.netlify.app/",
-        codeLink: "#"
+        codeLink: "https://github.com/TiagoAbrahamsson/js-project-accessibility"
       },
       {
         id: 5,
