@@ -1,14 +1,14 @@
 import React from "react";
 
-const Card = ({ image, title, description, tags, liveLink, codeLink }) => {
+const Card = ({ image, title, description, tags, liveLink, codeLink, reverse }) => {
   return (
-    <div className="card">
+    <div className={`card ${reverse ? "reverse" : ""}`}>
       <div className="card-image">
         <img src={image} alt={title} />
       </div>
       <div className="card-content">
         <div className="card-tags">
-          {tags && tags.map((tag, index) => (
+          {tags?.map((tag, index) => (
             <span key={index}>{tag}</span>
           ))}
         </div>
@@ -21,6 +21,6 @@ const Card = ({ image, title, description, tags, liveLink, codeLink }) => {
       </div>
     </div>
   );
-}
+};
 
 export default Card;
