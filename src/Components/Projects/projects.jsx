@@ -15,12 +15,12 @@ import Card from "./card";
       },
       {
         id: 3,
-        image: "/images/project3.png",
+        image: "/images/weather .png",
         title: "Weather app",
         description: "A responsive weather app built with typescript fetchingdata from OpeanWeather API. It shows shows current weather, temperature, sunrise and sunset and a 4 - day forecast.",
         tags: ["HTML5", "Javascript", "CSS", "Typescript", "API"],
-        liveLink: "https://watherrr.netlify.app/",
-        codeLink: "#"
+        liveLink: "https://ctrlrain.netlify.app/",
+        codeLink: "https://github.com/TiagoAbrahamsson/weather-app.git"
       },
       {
         id: 4,
@@ -33,12 +33,12 @@ import Card from "./card";
       },
       {
         id: 5,
-        image: "/images/project5.png",
+        image: "/images/recipe.png",
         title: "Recipe Library",
         description: "A recipe app that fetches recipies from an API to help users find recipies based on different filters.",
         tags: ["HTML5", "Javascript", "CSS", "API"],
-        liveLink: "#",
-        codeLink: "#"
+        liveLink: "https://resonant-boba-03de0c.netlify.app/",
+        codeLink: "https://github.com/TiagoAbrahamsson/js-project-recipe-library.git"
       },
       // Add more projects here
     ];
