@@ -15,9 +15,8 @@ const Footer = () => {
           <li><a href="#">tiagoabrahamsson@gmail.com</a></li>
         </ul>
         <ul className="social-links">
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
+          <li><a href="linkedin.com/in/tiago-a-6a361b124">LinkedIn</a></li>
+          <li><a href="https://github.com/TiagoAbrahamsson">GitHub</a></li>
         </ul>
         <p>&copy; 2023 Your Name. All rights reserved.</p>
       </div>
