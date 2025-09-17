@@ -1,4 +1,5 @@
 import React from 'react';
+import bild from '../assets/bild.jpeg';
 function HeroSection() {
   return (
     <header className="hero">
@@ -6,7 +7,7 @@ function HeroSection() {
         <h1 className="hero-title">Hi, I'm Tiago Abrahamsson</h1>
 
         <img 
-        src="public/images/bild.jpeg" 
+        src= {bild} 
         alt="Your Name" 
         className="hero-image" 
       />
