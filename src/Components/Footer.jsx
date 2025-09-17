@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <h1>Let's Talk</h1>
-        <img  src="public/images/bild.jpeg" 
+        <img  src={bild}  
         alt="Your Name" 
         className="footer-image" />
 
