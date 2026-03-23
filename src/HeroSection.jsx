@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="hero-text">
         <h1>Hi, I'm Tiago Abrahamsson</h1>
         <h3>Creative Frontend Developer, Movie Buff and Crossfit Enthusiast</h3>
-        <p>Tiago is a motivated and curious fronted developer. He is easy-going by nature and spend most of his free time either learning new things or watching movies and TV shows. He creates user friendly applications and solves complex issues. His drive for excellence makes him a valuable asset to any project and a standout in the technology field.</p>
+        <p>I'm a motivated and curious frontend developer with an easy-going nature. I spend most of my free time learning new things or watching movies and TV shows. I build user-friendly applications and enjoy solving complex problems. I care about doing things well, and I bring that same drive to every project I work on.</p>
       </div>
     </section>
   )
